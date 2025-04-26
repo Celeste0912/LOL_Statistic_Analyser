@@ -1,18 +1,18 @@
 {
-  "name": "project",
+  "name": "lol-riot-analyzer",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
+  "description": "Riot Games match analyzer MCP server for Claude",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "RIOT_API_KEY=$RIOT_API_KEY node server.js"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.9.0",
-    "typescript": "^5.8.3",
+    "dotenv": "^16.5.0",
+    "fastmcp": "^1.22.4",
+    "node-fetch": "^2.7.0",
     "zod": "^3.24.3"
   }
 }
-hhh
