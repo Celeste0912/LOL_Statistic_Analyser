@@ -19,7 +19,7 @@
 
 1. 저장소 클론
 ```bash
-git clone https://github.com/yourusername/lol-mcp.git
+git clone https://github.com/Celeste0912/LOL_Statistic_Analyser
 cd lol-mcp
 ```
 
@@ -31,7 +31,6 @@ npm install
 3. `.env` 파일 생성 및 API 키 설정
 ```
 RIOT_API_KEY=RGAPI-your-api-key-here
-MCP_SECRET=your-secret-key-here
 PORT=8080
 ```
 
